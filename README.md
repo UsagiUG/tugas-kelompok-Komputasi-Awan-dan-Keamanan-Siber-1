@@ -1,4 +1,5 @@
 # Cara akses cloud run (google)
+Dari root/frontend
 ```powershell
 python main.py --url "https://hybrid-crypto-1000486494243.asia-southeast2.run.app/telemetry/"
 ```
