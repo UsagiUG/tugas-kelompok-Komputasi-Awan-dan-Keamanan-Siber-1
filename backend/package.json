@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-sqlite server.js",
+    "dev": "nodemon --experimental-sqlite server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "nanoid": "^5.1.11",
+    "sqlite": "^5.1.1"
+  }
+}

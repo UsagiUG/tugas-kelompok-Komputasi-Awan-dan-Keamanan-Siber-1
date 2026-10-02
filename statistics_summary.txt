@@ -1,0 +1,54 @@
+rsa 1kb
+Encrypt- mean: 0.989 ms, median: 0.772 ms, std: 1.573 ms
+Decrypt- mean: 2.685 ms, median: 1.885 ms, std: 5.318 ms
+Round trip- mean: 32.633 ms, median: 18.471 ms, std: 84.001 ms
+Throughput: 29.63768815373681 message/second
+JSON size - mean: 2179.800 bytes, median: 2179.000 bytes, std: 1.600 bytes
+Generate key- mean: 0.272 ms, median: 0.047 ms, std: 1.226 ms
+================================================================================
+
+rsa 10kb
+Encrypt- mean: 0.941 ms, median: 0.916 ms, std: 0.134 ms
+Decrypt- mean: 2.187 ms, median: 2.113 ms, std: 0.204 ms
+Round trip- mean: 19.400 ms, median: 18.904 ms, std: 1.921 ms
+Throughput: 48.71895141245899 message/second
+JSON size - mean: 14467.933 bytes, median: 14467.000 bytes, std: 1.692 bytes
+Generate key- mean: 0.055 ms, median: 0.048 ms, std: 0.032 ms
+================================================================================
+
+rsa 100kb
+Encrypt- mean: 1.698 ms, median: 1.642 ms, std: 0.326 ms
+Decrypt- mean: 3.570 ms, median: 3.723 ms, std: 0.848 ms
+Round trip- mean: 20.847 ms, median: 21.780 ms, std: 3.592 ms
+Throughput: 43.21142095164263 message/second
+JSON size - mean: 137348.467 bytes, median: 137347.000 bytes, std: 1.928 bytes
+Generate key- mean: 0.048 ms, median: 0.047 ms, std: 0.005 ms
+================================================================================
+
+ecc 1kb
+Encrypt- mean: 0.744 ms, median: 0.530 ms, std: 1.063 ms
+Decrypt- mean: 0.654 ms, median: 0.600 ms, std: 0.343 ms
+Round trip- mean: 10.768 ms, median: 10.436 ms, std: 1.272 ms
+Throughput: 86.23725305685456 message/second
+JSON size - mean: 1895.800 bytes, median: 1895.000 bytes, std: 2.166 bytes
+Generate key- mean: 0.412 ms, median: 0.203 ms, std: 1.050 ms
+================================================================================
+
+ecc 10kb
+Encrypt- mean: 0.603 ms, median: 0.590 ms, std: 0.103 ms
+Decrypt- mean: 0.668 ms, median: 0.622 ms, std: 0.157 ms
+Round trip- mean: 10.684 ms, median: 10.572 ms, std: 1.115 ms
+Throughput: 87.78444354138315 message/second
+JSON size - mean: 14183.533 bytes, median: 14183.000 bytes, std: 1.360 bytes
+Generate key- mean: 0.218 ms, median: 0.201 ms, std: 0.063 ms
+================================================================================
+
+ecc 100kb
+Encrypt- mean: 1.081 ms, median: 1.055 ms, std: 0.172 ms
+Decrypt- mean: 1.681 ms, median: 1.531 ms, std: 0.352 ms
+Round trip- mean: 14.025 ms, median: 13.260 ms, std: 2.466 ms
+Throughput: 64.58038999105808 message/second
+JSON size - mean: 137063.667 bytes, median: 137063.000 bytes, std: 1.814 bytes
+Generate key- mean: 0.211 ms, median: 0.206 ms, std: 0.044 ms
+================================================================================
+
